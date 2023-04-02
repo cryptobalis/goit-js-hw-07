@@ -28,13 +28,13 @@ function onclick(evt){
     }
 
 
-    const lightbox = new SimpleLightbox('.gallery a', {
-        captions: true,
-        captionSelector: 'img',
-        captionType: 'attr',
-        captionsData: 'alt',
-        captionPosition: 'bottom',
-        captionDelay: 250,
- });
-
 }
+
+const lightbox = new SimpleLightbox('.gallery a', {
+    captions: true,
+    captionSelector: 'img',
+    captionType: 'attr',
+    captionsData: 'alt',
+    captionPosition: 'bottom',
+    captionDelay: 250,
+});
